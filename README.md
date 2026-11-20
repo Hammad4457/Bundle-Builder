@@ -2,6 +2,8 @@
 
 A React prototype of a multi-step security bundle builder with a live review panel.
 
+Final code is on the `main` branch.
+
 ## Run it
 
 ```bash
@@ -21,6 +23,8 @@ Other scripts: `npm run build`, `npm run preview`, `npm run lint`.
 - Card and review steppers stay in sync. Totals, savings and the monthly price update live.
 - "Save my system for later" saves to localStorage, and the saved system is restored on reload.
 - Responsive: stacked on phone, review sidebar on tablet/laptop, full-width review below the builder on wide screens.
+
+## How it works
 
 - Quantities are stored per `productId:variantId`, so every variant has its own count.
 - Products without variants use `default` as the variant id.
