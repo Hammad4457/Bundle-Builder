@@ -1,0 +1,22 @@
+:root {
+  --space-desktop-01: 2px;
+  --space-desktop-02: 4px;
+  --space-desktop-2-5: 6px;
+  --space-desktop-03: 8px;
+  --space-desktop-04: 12px;
+  --space-desktop-05: 16px;
+  --space-desktop-06: 20px;
+  --space-desktop-07: 24px;
+  --space-desktop-08: 28px;
+  --space-desktop-09: 32px;
+  --space-desktop-10: 36px;
+  --space-desktop-11: 40px;
+  --space-desktop-12: 44px;
+  --space-desktop-13: 48px;
+  --space-desktop-14: 52px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+}

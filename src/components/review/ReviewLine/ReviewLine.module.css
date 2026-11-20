@@ -1,0 +1,20 @@
+.line {
+  display: flex;
+  align-items: center;
+  gap: var(--space-desktop-04);
+  padding: var(--space-desktop-03) 0;
+}
+
+.thumb {
+  flex-shrink: 0;
+  width: var(--space-desktop-08);
+  height: var(--space-desktop-08);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  object-fit: contain;
+}
+
+.name {
+  flex: 1;
+  font-size: var(--space-desktop-04);
+}

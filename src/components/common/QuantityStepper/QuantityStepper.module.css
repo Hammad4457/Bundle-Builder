@@ -1,0 +1,32 @@
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-desktop-03);
+  font-size: var(--space-desktop-04);
+}
+
+.button {
+  width: var(--space-desktop-07);
+  height: var(--space-desktop-07);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--disabled-bg);
+  color: var(--text);
+  line-height: 1;
+}
+
+.button:disabled {
+  color: var(--disabled-text);
+}
+
+.value {
+  min-width: var(--space-desktop-04);
+  text-align: center;
+}
+
+.small .button {
+  width: var(--space-desktop-06);
+  height: var(--space-desktop-06);
+  font-size: var(--space-desktop-04);
+}

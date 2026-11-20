@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-desktop-04);
+  padding: var(--space-desktop-04) 0;
+  border-top: 1px solid var(--border);
+}
+
+.icon {
+  display: flex;
+  width: var(--space-desktop-08);
+  justify-content: center;
+  color: var(--green);
+}
+
+.label {
+  flex: 1;
+  font-size: var(--space-desktop-04);
+}

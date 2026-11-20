@@ -1,0 +1,18 @@
+.group {
+  padding: var(--space-desktop-03) 0;
+  border-top: 1px solid var(--border);
+}
+
+.label {
+  margin: 0 0 var(--space-desktop-02);
+  font-size: var(--space-desktop-04);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

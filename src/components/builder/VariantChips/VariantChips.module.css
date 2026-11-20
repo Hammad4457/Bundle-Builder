@@ -1,0 +1,29 @@
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-desktop-02);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-desktop-02);
+  padding: var(--space-desktop-01) var(--space-desktop-03)
+    var(--space-desktop-01) var(--space-desktop-01);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  color: var(--text);
+  font-size: var(--space-desktop-04);
+}
+
+.active {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.swatch {
+  width: var(--space-desktop-05);
+  height: var(--space-desktop-05);
+  object-fit: contain;
+}

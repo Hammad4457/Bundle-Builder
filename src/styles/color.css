@@ -1,0 +1,20 @@
+:root {
+  --primary: #4f2bd8;
+  --primary-light: #f3f1ff;
+  --primary-border: #7b61ff;
+
+  --white: #ffffff;
+  --bg-light: #eef2ff;
+
+  --text: #1a1a1a;
+  --text-muted: #6b6b76;
+  --text-light: #9a9aa5;
+
+  --border: #d9dbe3;
+
+  --red: #e5484d;
+  --green: #12a150;
+
+  --disabled-bg: #f1f1f4;
+  --disabled-text: #b8b8c2;
+}
